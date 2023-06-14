@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import streamlit as st
+
 
 def LRGradDesc(data, target, init_x1=0, init_x2=0, init_b=0,
     learning_rate_w=0.001, learning_rate_b=0.1, max_iter=10000):
